@@ -1,16 +1,3 @@
-PODS:
-  - SunsetFramework (1.0.0)
-
-DEPENDENCIES:
-  - SunsetFramework
-
-SPEC REPOS:
-  trunk:
-    - SunsetFramework
-
-SPEC CHECKSUMS:
-  SunsetFramework: 59012e02225faab8b3d2f5199d05cb3d5b0d21ad
-
-PODFILE CHECKSUM: c901507b5dbae221b423be299d752e6e3a5dbf93
+PODFILE CHECKSUM: f9706648954caece8b01b1cad30b15e835c3ad49
 
 COCOAPODS: 1.11.3

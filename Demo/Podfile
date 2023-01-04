@@ -7,6 +7,6 @@ target 'Demo' do
 
   # Pods for Demo
   #pod 'SunsetFramework', :path => '../SunsetFramework'
-  pod 'SunsetFramework'
+  #pod 'SunsetFramework'
 
 end
