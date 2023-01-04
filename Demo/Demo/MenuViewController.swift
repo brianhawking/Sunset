@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import Sunset
+import SunsetFramework
 
 class MenuViewController: UIViewController {
     

@@ -23,6 +23,7 @@
 		F7387B1829653038003688F0 /* SunsetFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7387B0D29653038003688F0 /* SunsetFramework.framework */; };
 		F7387B1D29653038003688F0 /* SunsetFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7387B1C29653038003688F0 /* SunsetFrameworkTests.swift */; };
 		F7387B1E29653038003688F0 /* SunsetFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = F7387B1029653038003688F0 /* SunsetFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F785EB75296623D700269454 /* BVAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7349A5F2965362D00D38D92 /* BVAlertView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -323,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7387B1D29653038003688F0 /* SunsetFrameworkTests.swift in Sources */,
+				F785EB75296623D700269454 /* BVAlertView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
