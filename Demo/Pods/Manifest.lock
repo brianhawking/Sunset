@@ -2,15 +2,15 @@ PODS:
   - SunsetFramework (1.0.0)
 
 DEPENDENCIES:
-  - SunsetFramework (from `../SunsetFramework`)
+  - SunsetFramework
 
-EXTERNAL SOURCES:
-  SunsetFramework:
-    :path: "../SunsetFramework"
+SPEC REPOS:
+  trunk:
+    - SunsetFramework
 
 SPEC CHECKSUMS:
   SunsetFramework: 59012e02225faab8b3d2f5199d05cb3d5b0d21ad
 
-PODFILE CHECKSUM: 4a50ccbf388ffde6278839fadde21ad457fa370b
+PODFILE CHECKSUM: c901507b5dbae221b423be299d752e6e3a5dbf93
 
 COCOAPODS: 1.11.3

@@ -25,7 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C6B5B47E6B18D187A389FCA48B1CE387 /* PBXContainerItemProxy */ = {
+		54155A1597655893E197717C05AB6A3E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -35,18 +35,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03A44240550C2A9951199C318C55939F /* SunsetFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SunsetFramework.release.xcconfig; sourceTree = "<group>"; };
 		06CF96C99F911368F10ED8D66BE3BA69 /* Pods-Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo-acknowledgements.plist"; sourceTree = "<group>"; };
 		072A4B36BD64A7BC8EC60AD01C67873F /* Pods-Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4B7179E244690731C7D11990B451A9DB /* SunsetFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SunsetFramework.debug.xcconfig; sourceTree = "<group>"; };
+		505BD90053196FE63629AB69269D9B2C /* SunsetFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SunsetFramework.h; path = SunsetFramework/SunsetFramework/SunsetFramework.h; sourceTree = "<group>"; };
 		53DF39A2D91E32DF9FB000BCBA235713 /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
-		6FF66FF44A7AA1F9F8325D3637B6CD78 /* SunsetFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SunsetFramework.debug.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		92477FDE431147D43F1DBB6A3D26EF40 /* Pods-Demo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Demo-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F56DBA9BF6C4CF1F1A0FAED462EA462 /* Pods-Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Demo-dummy.m"; sourceTree = "<group>"; };
 		C694DE63ED5EAB66E3CA6D184271692B /* Pods-Demo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Demo"; path = Pods_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C89582433D29E230F1413E403BFF1249 /* Pods-Demo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo-Info.plist"; sourceTree = "<group>"; };
-		E7C692F7DF08915DC3D3F425B29F915E /* SunsetFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SunsetFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E29A33DFCF6A8D0962B8FB6B07B91369 /* SunsetFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SunsetFramework.release.xcconfig; sourceTree = "<group>"; };
 		F5CF31158D0D84E1FF4D685A6268FDC7 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		F7A16DCD579440AF0A04BFD83E50707C /* Pods-Demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Demo.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,14 +63,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		10C6063B472F5DDF26D1EFBC28A3029C /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				DC0E674954BBA31BC82E7CFA6DE90588 /* SunsetFramework */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		1E01C026587974531D5AEEE6EC43187E /* Pods-Demo */ = {
 			isa = PBXGroup;
 			children = (
@@ -87,14 +79,14 @@
 			path = "Target Support Files/Pods-Demo";
 			sourceTree = "<group>";
 		};
-		3ACDC4E213C54F66765688A16C08DC97 /* Support Files */ = {
+		3A2C07EA1607780E23499400E52B5FA8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6FF66FF44A7AA1F9F8325D3637B6CD78 /* SunsetFramework.debug.xcconfig */,
-				03A44240550C2A9951199C318C55939F /* SunsetFramework.release.xcconfig */,
+				4B7179E244690731C7D11990B451A9DB /* SunsetFramework.debug.xcconfig */,
+				E29A33DFCF6A8D0962B8FB6B07B91369 /* SunsetFramework.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Demo/Pods/Target Support Files/SunsetFramework";
+			path = "../Target Support Files/SunsetFramework";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -105,12 +97,22 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		67A7A505552DA873344285471682DD1B /* Pod */ = {
+		641EA686E7E5D04E638E2C6CCFF7DBAF /* SunsetFramework */ = {
 			isa = PBXGroup;
 			children = (
-				E7C692F7DF08915DC3D3F425B29F915E /* SunsetFramework.podspec */,
+				505BD90053196FE63629AB69269D9B2C /* SunsetFramework.h */,
+				3A2C07EA1607780E23499400E52B5FA8 /* Support Files */,
 			);
-			name = Pod;
+			name = SunsetFramework;
+			path = SunsetFramework;
+			sourceTree = "<group>";
+		};
+		9C5C66BE8DA3F77BB07D81916CC59626 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				641EA686E7E5D04E638E2C6CCFF7DBAF /* SunsetFramework */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		B855E81AB53749CDEDD1308377350FC4 /* Targets Support Files */ = {
@@ -125,8 +127,8 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				10C6063B472F5DDF26D1EFBC28A3029C /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				9C5C66BE8DA3F77BB07D81916CC59626 /* Pods */,
 				DEB5E772A358E1E0837982803A5421BF /* Products */,
 				B855E81AB53749CDEDD1308377350FC4 /* Targets Support Files */,
 			);
@@ -138,16 +140,6 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DC0E674954BBA31BC82E7CFA6DE90588 /* SunsetFramework */ = {
-			isa = PBXGroup;
-			children = (
-				67A7A505552DA873344285471682DD1B /* Pod */,
-				3ACDC4E213C54F66765688A16C08DC97 /* Support Files */,
-			);
-			name = SunsetFramework;
-			path = ../../SunsetFramework;
 			sourceTree = "<group>";
 		};
 		DEB5E772A358E1E0837982803A5421BF /* Products */ = {
@@ -184,7 +176,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				A84E40BB92CE7C710CEF85DAEC712AF1 /* PBXTargetDependency */,
+				45099149F3E3873BAA7157626399176B /* PBXTargetDependency */,
 			);
 			name = "Pods-Demo";
 			productName = Pods_Demo;
@@ -241,18 +233,18 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A84E40BB92CE7C710CEF85DAEC712AF1 /* PBXTargetDependency */ = {
+		45099149F3E3873BAA7157626399176B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SunsetFramework;
 			target = 5E552319F7A4560A91C00DE749E73D05 /* SunsetFramework */;
-			targetProxy = C6B5B47E6B18D187A389FCA48B1CE387 /* PBXContainerItemProxy */;
+			targetProxy = 54155A1597655893E197717C05AB6A3E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0B59F17E4EC1F5EACDDEA9B71F8AFF83 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03A44240550C2A9951199C318C55939F /* SunsetFramework.release.xcconfig */;
+			baseConfigurationReference = E29A33DFCF6A8D0962B8FB6B07B91369 /* SunsetFramework.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -369,7 +361,7 @@
 		};
 		9320AB4382C172D2CAC318899B0D76B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6FF66FF44A7AA1F9F8325D3637B6CD78 /* SunsetFramework.debug.xcconfig */;
+			baseConfigurationReference = 4B7179E244690731C7D11990B451A9DB /* SunsetFramework.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
