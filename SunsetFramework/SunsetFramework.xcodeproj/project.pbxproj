@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F7349A602965362D00D38D92 /* BVAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7349A5F2965362D00D38D92 /* BVAlertView.swift */; };
+		F7349A632965363800D38D92 /* spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7349A622965363800D38D92 /* spacing.swift */; };
+		F7349A742965365600D38D92 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7349A672965365600D38D92 /* UIColor+Extension.swift */; };
+		F7349A752965365600D38D92 /* shake.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7349A692965365600D38D92 /* shake.swift */; };
+		F7349A762965365600D38D92 /* moveBy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7349A6A2965365600D38D92 /* moveBy.swift */; };
+		F7349A772965365600D38D92 /* flip.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7349A6B2965365600D38D92 /* flip.swift */; };
+		F7349A782965365600D38D92 /* addShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7349A6C2965365600D38D92 /* addShadow.swift */; };
+		F7349A792965365600D38D92 /* rotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7349A6D2965365600D38D92 /* rotate.swift */; };
+		F7349A7A2965365600D38D92 /* fade.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7349A6E2965365600D38D92 /* fade.swift */; };
+		F7349A7B2965365600D38D92 /* UIView+IBInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7349A6F2965365600D38D92 /* UIView+IBInspectable.swift */; };
+		F7349A7C2965365600D38D92 /* CAMediaTimingFunctionName+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7349A712965365600D38D92 /* CAMediaTimingFunctionName+Extension.swift */; };
+		F7349A7D2965365600D38D92 /* something.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7349A732965365600D38D92 /* something.swift */; };
 		F7387B1229653038003688F0 /* SunsetFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = F7387B1129653038003688F0 /* SunsetFramework.docc */; };
 		F7387B1829653038003688F0 /* SunsetFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7387B0D29653038003688F0 /* SunsetFramework.framework */; };
 		F7387B1D29653038003688F0 /* SunsetFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7387B1C29653038003688F0 /* SunsetFrameworkTests.swift */; };
@@ -24,6 +36,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F7349A5F2965362D00D38D92 /* BVAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BVAlertView.swift; sourceTree = "<group>"; };
+		F7349A622965363800D38D92 /* spacing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = spacing.swift; sourceTree = "<group>"; };
+		F7349A672965365600D38D92 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		F7349A692965365600D38D92 /* shake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shake.swift; sourceTree = "<group>"; };
+		F7349A6A2965365600D38D92 /* moveBy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = moveBy.swift; sourceTree = "<group>"; };
+		F7349A6B2965365600D38D92 /* flip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = flip.swift; sourceTree = "<group>"; };
+		F7349A6C2965365600D38D92 /* addShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addShadow.swift; sourceTree = "<group>"; };
+		F7349A6D2965365600D38D92 /* rotate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rotate.swift; sourceTree = "<group>"; };
+		F7349A6E2965365600D38D92 /* fade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fade.swift; sourceTree = "<group>"; };
+		F7349A6F2965365600D38D92 /* UIView+IBInspectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+IBInspectable.swift"; sourceTree = "<group>"; };
+		F7349A712965365600D38D92 /* CAMediaTimingFunctionName+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAMediaTimingFunctionName+Extension.swift"; sourceTree = "<group>"; };
+		F7349A732965365600D38D92 /* something.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = something.swift; sourceTree = "<group>"; };
 		F7387B0D29653038003688F0 /* SunsetFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SunsetFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7387B1029653038003688F0 /* SunsetFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SunsetFramework.h; sourceTree = "<group>"; };
 		F7387B1129653038003688F0 /* SunsetFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SunsetFramework.docc; sourceTree = "<group>"; };
@@ -50,6 +74,86 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F7349A5D2965362D00D38D92 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F7349A5E2965362D00D38D92 /* BVAlertView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F7349A5E2965362D00D38D92 /* BVAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				F7349A5F2965362D00D38D92 /* BVAlertView.swift */,
+			);
+			path = BVAlertView;
+			sourceTree = "<group>";
+		};
+		F7349A612965363800D38D92 /* Spacing */ = {
+			isa = PBXGroup;
+			children = (
+				F7349A622965363800D38D92 /* spacing.swift */,
+			);
+			path = Spacing;
+			sourceTree = "<group>";
+		};
+		F7349A642965364200D38D92 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		F7349A652965365600D38D92 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F7349A662965365600D38D92 /* UIColor */,
+				F7349A682965365600D38D92 /* UIView */,
+				F7349A702965365600D38D92 /* CAMediaTimingFunctionName */,
+				F7349A722965365600D38D92 /* String */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F7349A662965365600D38D92 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				F7349A672965365600D38D92 /* UIColor+Extension.swift */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		F7349A682965365600D38D92 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				F7349A692965365600D38D92 /* shake.swift */,
+				F7349A6A2965365600D38D92 /* moveBy.swift */,
+				F7349A6B2965365600D38D92 /* flip.swift */,
+				F7349A6C2965365600D38D92 /* addShadow.swift */,
+				F7349A6D2965365600D38D92 /* rotate.swift */,
+				F7349A6E2965365600D38D92 /* fade.swift */,
+				F7349A6F2965365600D38D92 /* UIView+IBInspectable.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		F7349A702965365600D38D92 /* CAMediaTimingFunctionName */ = {
+			isa = PBXGroup;
+			children = (
+				F7349A712965365600D38D92 /* CAMediaTimingFunctionName+Extension.swift */,
+			);
+			path = CAMediaTimingFunctionName;
+			sourceTree = "<group>";
+		};
+		F7349A722965365600D38D92 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				F7349A732965365600D38D92 /* something.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
 		F7387B0329653038003688F0 = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +175,10 @@
 		F7387B0F29653038003688F0 /* SunsetFramework */ = {
 			isa = PBXGroup;
 			children = (
+				F7349A652965365600D38D92 /* Extensions */,
+				F7349A642965364200D38D92 /* Color */,
+				F7349A612965363800D38D92 /* Spacing */,
+				F7349A5D2965362D00D38D92 /* Views */,
 				F7387B1029653038003688F0 /* SunsetFramework.h */,
 				F7387B1129653038003688F0 /* SunsetFramework.docc */,
 			);
@@ -194,7 +302,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7349A752965365600D38D92 /* shake.swift in Sources */,
+				F7349A782965365600D38D92 /* addShadow.swift in Sources */,
+				F7349A762965365600D38D92 /* moveBy.swift in Sources */,
+				F7349A7A2965365600D38D92 /* fade.swift in Sources */,
 				F7387B1229653038003688F0 /* SunsetFramework.docc in Sources */,
+				F7349A632965363800D38D92 /* spacing.swift in Sources */,
+				F7349A7B2965365600D38D92 /* UIView+IBInspectable.swift in Sources */,
+				F7349A792965365600D38D92 /* rotate.swift in Sources */,
+				F7349A772965365600D38D92 /* flip.swift in Sources */,
+				F7349A7D2965365600D38D92 /* something.swift in Sources */,
+				F7349A602965362D00D38D92 /* BVAlertView.swift in Sources */,
+				F7349A742965365600D38D92 /* UIColor+Extension.swift in Sources */,
+				F7349A7C2965365600D38D92 /* CAMediaTimingFunctionName+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +516,7 @@
 		F7387B2529653038003688F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SG7HHALT8U;
@@ -412,6 +533,7 @@
 		F7387B2629653038003688F0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SG7HHALT8U;
