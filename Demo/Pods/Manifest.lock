@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: f9706648954caece8b01b1cad30b15e835c3ad49
+PODS:
+  - SunsetFramework (1.0.0)
+
+DEPENDENCIES:
+  - SunsetFramework (from `../`)
+
+EXTERNAL SOURCES:
+  SunsetFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SunsetFramework: 570b0cc7712ed1df4cfa1ab71089ebb8731516e5
+
+PODFILE CHECKSUM: 147f11cece3af532df63bb58610e55b0c92b65e2
 
 COCOAPODS: 1.11.3
