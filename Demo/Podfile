@@ -7,6 +7,6 @@ target 'Demo' do
 
   # Pods for Demo
   #pod 'SunsetFramework', :path => '../'
-  pod 'SunsetFramework'
+  pod 'SCLAlertView'
 
 end

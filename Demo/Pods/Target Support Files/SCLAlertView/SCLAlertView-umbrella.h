@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double SunsetFrameworkVersionNumber;
-FOUNDATION_EXPORT const unsigned char SunsetFrameworkVersionString[];
+FOUNDATION_EXPORT double SCLAlertViewVersionNumber;
+FOUNDATION_EXPORT const unsigned char SCLAlertViewVersionString[];
 

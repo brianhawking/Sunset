@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
 
   spec.platform     = :ios
   spec.platform     = :ios, "13.4"
-  spec.source       = { :git => "https://github.com/brianhawking/Sunset.git", :tag => spec.version.to_s}
+  spec.source       = { :git => "https://github.com/brianhawking/Sunset.git", :tag => spec.version}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

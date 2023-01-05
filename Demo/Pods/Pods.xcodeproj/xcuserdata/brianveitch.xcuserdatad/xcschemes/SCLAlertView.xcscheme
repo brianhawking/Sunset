@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5E552319F7A4560A91C00DE749E73D05"
-               BuildableName = "SunsetFramework"
-               BlueprintName = "SunsetFramework"
+               BlueprintIdentifier = "E0152970E5467A11DF89E7D22C63B47C"
+               BuildableName = "SCLAlertView.framework"
+               BlueprintName = "SCLAlertView"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
