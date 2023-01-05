@@ -8,7 +8,7 @@
 import Foundation
 
 import UIKit
-import SunsetFramework
+import Sunset
 
 class UIViewAnimationsViewController: UIViewController {
     

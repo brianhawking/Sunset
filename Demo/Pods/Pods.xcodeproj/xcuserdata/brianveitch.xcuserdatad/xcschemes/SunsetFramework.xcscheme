@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5E552319F7A4560A91C00DE749E73D05"
-               BuildableName = "SunsetFramework.framework"
+               BuildableName = "SunsetFramework"
                BlueprintName = "SunsetFramework"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
