@@ -1,16 +1,16 @@
 PODS:
-  - SCLAlertView (0.8)
+  - SunsetFramework (1.0.0)
 
 DEPENDENCIES:
-  - SCLAlertView
+  - SunsetFramework (from `../`)
 
-SPEC REPOS:
-  trunk:
-    - SCLAlertView
+EXTERNAL SOURCES:
+  SunsetFramework:
+    :path: "../"
 
 SPEC CHECKSUMS:
-  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+  SunsetFramework: 570b0cc7712ed1df4cfa1ab71089ebb8731516e5
 
-PODFILE CHECKSUM: dcb56a62b1a3c7bc312b738570e10919d69a73bf
+PODFILE CHECKSUM: 147f11cece3af532df63bb58610e55b0c92b65e2
 
 COCOAPODS: 1.11.3
