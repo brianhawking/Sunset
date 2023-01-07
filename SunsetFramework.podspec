@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "SunsetFramework"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "Comprehensive UI framework for Sunset projects"
   spec.description  = "Framework for commonly used UI components such as padding, colors, alerts, UIView extensions."
 
@@ -24,6 +24,6 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "SunsetFramework/*.{swift}"
+  spec.source_files  = "SunsetFramework"
   spec.swift_versions = "5.0"
 end
