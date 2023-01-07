@@ -1,0 +1,6 @@
+framework module SunsetFramework {
+  umbrella header "SunsetFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}
