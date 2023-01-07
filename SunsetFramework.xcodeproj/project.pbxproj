@@ -7,22 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F7349A602965362D00D38D92 /* BVAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7349A5F2965362D00D38D92 /* BVAlertView.swift */; };
-		F7349A632965363800D38D92 /* spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7349A622965363800D38D92 /* spacing.swift */; };
-		F7349A742965365600D38D92 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7349A672965365600D38D92 /* UIColor+Extension.swift */; };
-		F7349A752965365600D38D92 /* shake.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7349A692965365600D38D92 /* shake.swift */; };
-		F7349A762965365600D38D92 /* moveBy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7349A6A2965365600D38D92 /* moveBy.swift */; };
-		F7349A772965365600D38D92 /* flip.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7349A6B2965365600D38D92 /* flip.swift */; };
-		F7349A782965365600D38D92 /* addShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7349A6C2965365600D38D92 /* addShadow.swift */; };
-		F7349A792965365600D38D92 /* rotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7349A6D2965365600D38D92 /* rotate.swift */; };
-		F7349A7A2965365600D38D92 /* fade.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7349A6E2965365600D38D92 /* fade.swift */; };
-		F7349A7B2965365600D38D92 /* UIView+IBInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7349A6F2965365600D38D92 /* UIView+IBInspectable.swift */; };
-		F7349A7C2965365600D38D92 /* CAMediaTimingFunctionName+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7349A712965365600D38D92 /* CAMediaTimingFunctionName+Extension.swift */; };
-		F7349A7D2965365600D38D92 /* something.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7349A732965365600D38D92 /* something.swift */; };
-		F7387B1229653038003688F0 /* SunsetFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = F7387B1129653038003688F0 /* SunsetFramework.docc */; };
+		F70A43C829692FF300AC613C /* moveBy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70A43C129692FF300AC613C /* moveBy.swift */; };
+		F70A43C929692FF300AC613C /* UIView+IBInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70A43C229692FF300AC613C /* UIView+IBInspectable.swift */; };
+		F70A43CA29692FF300AC613C /* flip.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70A43C329692FF300AC613C /* flip.swift */; };
+		F70A43CB29692FF300AC613C /* rotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70A43C429692FF300AC613C /* rotate.swift */; };
+		F70A43CC29692FF300AC613C /* fade.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70A43C529692FF300AC613C /* fade.swift */; };
+		F70A43CD29692FF300AC613C /* addShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70A43C629692FF300AC613C /* addShadow.swift */; };
+		F70A43CE29692FF300AC613C /* shake.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70A43C729692FF300AC613C /* shake.swift */; };
+		F70A43D02969302D00AC613C /* something.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70A43CF2969302D00AC613C /* something.swift */; };
 		F7387B1829653038003688F0 /* SunsetFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7387B0D29653038003688F0 /* SunsetFramework.framework */; };
-		F7387B1D29653038003688F0 /* SunsetFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7387B1C29653038003688F0 /* SunsetFrameworkTests.swift */; };
-		F7387B1E29653038003688F0 /* SunsetFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = F7387B1029653038003688F0 /* SunsetFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,23 +29,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F7349A5F2965362D00D38D92 /* BVAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BVAlertView.swift; sourceTree = "<group>"; };
-		F7349A622965363800D38D92 /* spacing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = spacing.swift; sourceTree = "<group>"; };
-		F7349A672965365600D38D92 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
-		F7349A692965365600D38D92 /* shake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shake.swift; sourceTree = "<group>"; };
-		F7349A6A2965365600D38D92 /* moveBy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = moveBy.swift; sourceTree = "<group>"; };
-		F7349A6B2965365600D38D92 /* flip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = flip.swift; sourceTree = "<group>"; };
-		F7349A6C2965365600D38D92 /* addShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addShadow.swift; sourceTree = "<group>"; };
-		F7349A6D2965365600D38D92 /* rotate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rotate.swift; sourceTree = "<group>"; };
-		F7349A6E2965365600D38D92 /* fade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fade.swift; sourceTree = "<group>"; };
-		F7349A6F2965365600D38D92 /* UIView+IBInspectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+IBInspectable.swift"; sourceTree = "<group>"; };
-		F7349A712965365600D38D92 /* CAMediaTimingFunctionName+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAMediaTimingFunctionName+Extension.swift"; sourceTree = "<group>"; };
-		F7349A732965365600D38D92 /* something.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = something.swift; sourceTree = "<group>"; };
+		F70A43C129692FF300AC613C /* moveBy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = moveBy.swift; sourceTree = "<group>"; };
+		F70A43C229692FF300AC613C /* UIView+IBInspectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+IBInspectable.swift"; sourceTree = "<group>"; };
+		F70A43C329692FF300AC613C /* flip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = flip.swift; sourceTree = "<group>"; };
+		F70A43C429692FF300AC613C /* rotate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rotate.swift; sourceTree = "<group>"; };
+		F70A43C529692FF300AC613C /* fade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fade.swift; sourceTree = "<group>"; };
+		F70A43C629692FF300AC613C /* addShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addShadow.swift; sourceTree = "<group>"; };
+		F70A43C729692FF300AC613C /* shake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shake.swift; sourceTree = "<group>"; };
+		F70A43CF2969302D00AC613C /* something.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = something.swift; sourceTree = "<group>"; };
 		F7387B0D29653038003688F0 /* SunsetFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SunsetFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7387B1029653038003688F0 /* SunsetFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SunsetFramework.h; sourceTree = "<group>"; };
-		F7387B1129653038003688F0 /* SunsetFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SunsetFramework.docc; sourceTree = "<group>"; };
 		F7387B1729653038003688F0 /* SunsetFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunsetFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7387B1C29653038003688F0 /* SunsetFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunsetFrameworkTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,90 +60,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F7349A5D2965362D00D38D92 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				F7349A5E2965362D00D38D92 /* BVAlertView */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		F7349A5E2965362D00D38D92 /* BVAlertView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = BVAlertView;
-			sourceTree = "<group>";
-		};
-		F7349A612965363800D38D92 /* Spacing */ = {
-			isa = PBXGroup;
-			children = (
-				F7349A622965363800D38D92 /* spacing.swift */,
-			);
-			path = Spacing;
-			sourceTree = "<group>";
-		};
-		F7349A642965364200D38D92 /* Color */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Color;
-			sourceTree = "<group>";
-		};
-		F7349A652965365600D38D92 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				F7349A662965365600D38D92 /* UIColor */,
-				F7349A682965365600D38D92 /* UIView */,
-				F7349A702965365600D38D92 /* CAMediaTimingFunctionName */,
-				F7349A722965365600D38D92 /* String */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		F7349A662965365600D38D92 /* UIColor */ = {
-			isa = PBXGroup;
-			children = (
-				F7349A672965365600D38D92 /* UIColor+Extension.swift */,
-			);
-			path = UIColor;
-			sourceTree = "<group>";
-		};
-		F7349A682965365600D38D92 /* UIView */ = {
-			isa = PBXGroup;
-			children = (
-				F7349A692965365600D38D92 /* shake.swift */,
-				F7349A6A2965365600D38D92 /* moveBy.swift */,
-				F7349A6B2965365600D38D92 /* flip.swift */,
-				F7349A6C2965365600D38D92 /* addShadow.swift */,
-				F7349A6D2965365600D38D92 /* rotate.swift */,
-				F7349A6E2965365600D38D92 /* fade.swift */,
-				F7349A6F2965365600D38D92 /* UIView+IBInspectable.swift */,
-			);
-			path = UIView;
-			sourceTree = "<group>";
-		};
-		F7349A702965365600D38D92 /* CAMediaTimingFunctionName */ = {
-			isa = PBXGroup;
-			children = (
-				F7349A712965365600D38D92 /* CAMediaTimingFunctionName+Extension.swift */,
-			);
-			path = CAMediaTimingFunctionName;
-			sourceTree = "<group>";
-		};
-		F7349A722965365600D38D92 /* String */ = {
-			isa = PBXGroup;
-			children = (
-				F7349A732965365600D38D92 /* something.swift */,
-			);
-			path = String;
-			sourceTree = "<group>";
-		};
 		F7387B0329653038003688F0 = {
 			isa = PBXGroup;
 			children = (
 				F7387B0F29653038003688F0 /* SunsetFramework */,
-				F7387B1B29653038003688F0 /* SunsetFrameworkTests */,
 				F7387B0E29653038003688F0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -174,23 +80,16 @@
 		F7387B0F29653038003688F0 /* SunsetFramework */ = {
 			isa = PBXGroup;
 			children = (
-				F7349A5F2965362D00D38D92 /* BVAlertView.swift */,
-				F7349A652965365600D38D92 /* Extensions */,
-				F7349A642965364200D38D92 /* Color */,
-				F7349A612965363800D38D92 /* Spacing */,
-				F7349A5D2965362D00D38D92 /* Views */,
-				F7387B1029653038003688F0 /* SunsetFramework.h */,
-				F7387B1129653038003688F0 /* SunsetFramework.docc */,
+				F70A43C629692FF300AC613C /* addShadow.swift */,
+				F70A43C529692FF300AC613C /* fade.swift */,
+				F70A43C329692FF300AC613C /* flip.swift */,
+				F70A43C129692FF300AC613C /* moveBy.swift */,
+				F70A43C429692FF300AC613C /* rotate.swift */,
+				F70A43C729692FF300AC613C /* shake.swift */,
+				F70A43C229692FF300AC613C /* UIView+IBInspectable.swift */,
+				F70A43CF2969302D00AC613C /* something.swift */,
 			);
 			path = SunsetFramework;
-			sourceTree = "<group>";
-		};
-		F7387B1B29653038003688F0 /* SunsetFrameworkTests */ = {
-			isa = PBXGroup;
-			children = (
-				F7387B1C29653038003688F0 /* SunsetFrameworkTests.swift */,
-			);
-			path = SunsetFrameworkTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,7 +99,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7387B1E29653038003688F0 /* SunsetFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +153,7 @@
 				TargetAttributes = {
 					F7387B0C29653038003688F0 = {
 						CreatedOnToolsVersion = 14.0.1;
+						LastSwiftMigration = 1400;
 					};
 					F7387B1629653038003688F0 = {
 						CreatedOnToolsVersion = 14.0.1;
@@ -302,19 +201,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7349A752965365600D38D92 /* shake.swift in Sources */,
-				F7349A782965365600D38D92 /* addShadow.swift in Sources */,
-				F7349A762965365600D38D92 /* moveBy.swift in Sources */,
-				F7349A7A2965365600D38D92 /* fade.swift in Sources */,
-				F7387B1229653038003688F0 /* SunsetFramework.docc in Sources */,
-				F7349A632965363800D38D92 /* spacing.swift in Sources */,
-				F7349A7B2965365600D38D92 /* UIView+IBInspectable.swift in Sources */,
-				F7349A792965365600D38D92 /* rotate.swift in Sources */,
-				F7349A772965365600D38D92 /* flip.swift in Sources */,
-				F7349A7D2965365600D38D92 /* something.swift in Sources */,
-				F7349A602965362D00D38D92 /* BVAlertView.swift in Sources */,
-				F7349A742965365600D38D92 /* UIColor+Extension.swift in Sources */,
-				F7349A7C2965365600D38D92 /* CAMediaTimingFunctionName+Extension.swift in Sources */,
+				F70A43D02969302D00AC613C /* something.swift in Sources */,
+				F70A43CE29692FF300AC613C /* shake.swift in Sources */,
+				F70A43CA29692FF300AC613C /* flip.swift in Sources */,
+				F70A43C929692FF300AC613C /* UIView+IBInspectable.swift in Sources */,
+				F70A43CB29692FF300AC613C /* rotate.swift in Sources */,
+				F70A43CD29692FF300AC613C /* addShadow.swift in Sources */,
+				F70A43CC29692FF300AC613C /* fade.swift in Sources */,
+				F70A43C829692FF300AC613C /* moveBy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,7 +216,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7387B1D29653038003688F0 /* SunsetFrameworkTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +353,7 @@
 		F7387B2229653038003688F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -480,6 +374,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -488,6 +383,7 @@
 		F7387B2329653038003688F0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
