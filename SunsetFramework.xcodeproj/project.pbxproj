@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F70A43C829692FF300AC613C /* moveBy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70A43C129692FF300AC613C /* moveBy.swift */; };
-		F70A43C929692FF300AC613C /* UIView+IBInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70A43C229692FF300AC613C /* UIView+IBInspectable.swift */; };
-		F70A43CA29692FF300AC613C /* flip.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70A43C329692FF300AC613C /* flip.swift */; };
-		F70A43CB29692FF300AC613C /* rotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70A43C429692FF300AC613C /* rotate.swift */; };
-		F70A43CC29692FF300AC613C /* fade.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70A43C529692FF300AC613C /* fade.swift */; };
-		F70A43CD29692FF300AC613C /* addShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70A43C629692FF300AC613C /* addShadow.swift */; };
-		F70A43CE29692FF300AC613C /* shake.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70A43C729692FF300AC613C /* shake.swift */; };
-		F70A43D02969302D00AC613C /* something.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70A43CF2969302D00AC613C /* something.swift */; };
+		F707E80929693D0E004BBEF0 /* something.swift in Sources */ = {isa = PBXBuildFile; fileRef = F707E80129693D0E004BBEF0 /* something.swift */; };
+		F707E80A29693D0E004BBEF0 /* shake.swift in Sources */ = {isa = PBXBuildFile; fileRef = F707E80229693D0E004BBEF0 /* shake.swift */; };
+		F707E80B29693D0E004BBEF0 /* moveBy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F707E80329693D0E004BBEF0 /* moveBy.swift */; };
+		F707E80C29693D0E004BBEF0 /* flip.swift in Sources */ = {isa = PBXBuildFile; fileRef = F707E80429693D0E004BBEF0 /* flip.swift */; };
+		F707E80D29693D0E004BBEF0 /* addShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F707E80529693D0E004BBEF0 /* addShadow.swift */; };
+		F707E80E29693D0E004BBEF0 /* rotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F707E80629693D0E004BBEF0 /* rotate.swift */; };
+		F707E80F29693D0E004BBEF0 /* fade.swift in Sources */ = {isa = PBXBuildFile; fileRef = F707E80729693D0E004BBEF0 /* fade.swift */; };
+		F707E81029693D0E004BBEF0 /* UIView+IBInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F707E80829693D0E004BBEF0 /* UIView+IBInspectable.swift */; };
 		F7387B1829653038003688F0 /* SunsetFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7387B0D29653038003688F0 /* SunsetFramework.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,14 +29,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F70A43C129692FF300AC613C /* moveBy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = moveBy.swift; sourceTree = "<group>"; };
-		F70A43C229692FF300AC613C /* UIView+IBInspectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+IBInspectable.swift"; sourceTree = "<group>"; };
-		F70A43C329692FF300AC613C /* flip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = flip.swift; sourceTree = "<group>"; };
-		F70A43C429692FF300AC613C /* rotate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rotate.swift; sourceTree = "<group>"; };
-		F70A43C529692FF300AC613C /* fade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fade.swift; sourceTree = "<group>"; };
-		F70A43C629692FF300AC613C /* addShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addShadow.swift; sourceTree = "<group>"; };
-		F70A43C729692FF300AC613C /* shake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shake.swift; sourceTree = "<group>"; };
-		F70A43CF2969302D00AC613C /* something.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = something.swift; sourceTree = "<group>"; };
+		F707E80129693D0E004BBEF0 /* something.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = something.swift; sourceTree = "<group>"; };
+		F707E80229693D0E004BBEF0 /* shake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shake.swift; sourceTree = "<group>"; };
+		F707E80329693D0E004BBEF0 /* moveBy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = moveBy.swift; sourceTree = "<group>"; };
+		F707E80429693D0E004BBEF0 /* flip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = flip.swift; sourceTree = "<group>"; };
+		F707E80529693D0E004BBEF0 /* addShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addShadow.swift; sourceTree = "<group>"; };
+		F707E80629693D0E004BBEF0 /* rotate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rotate.swift; sourceTree = "<group>"; };
+		F707E80729693D0E004BBEF0 /* fade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fade.swift; sourceTree = "<group>"; };
+		F707E80829693D0E004BBEF0 /* UIView+IBInspectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+IBInspectable.swift"; sourceTree = "<group>"; };
 		F7387B0D29653038003688F0 /* SunsetFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SunsetFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7387B1729653038003688F0 /* SunsetFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunsetFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -60,6 +60,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F707E80029693D0E004BBEF0 /* SunsetFramework */ = {
+			isa = PBXGroup;
+			children = (
+				F707E80129693D0E004BBEF0 /* something.swift */,
+				F707E80229693D0E004BBEF0 /* shake.swift */,
+				F707E80329693D0E004BBEF0 /* moveBy.swift */,
+				F707E80429693D0E004BBEF0 /* flip.swift */,
+				F707E80529693D0E004BBEF0 /* addShadow.swift */,
+				F707E80629693D0E004BBEF0 /* rotate.swift */,
+				F707E80729693D0E004BBEF0 /* fade.swift */,
+				F707E80829693D0E004BBEF0 /* UIView+IBInspectable.swift */,
+			);
+			path = SunsetFramework;
+			sourceTree = "<group>";
+		};
 		F7387B0329653038003688F0 = {
 			isa = PBXGroup;
 			children = (
@@ -80,14 +95,7 @@
 		F7387B0F29653038003688F0 /* SunsetFramework */ = {
 			isa = PBXGroup;
 			children = (
-				F70A43C629692FF300AC613C /* addShadow.swift */,
-				F70A43C529692FF300AC613C /* fade.swift */,
-				F70A43C329692FF300AC613C /* flip.swift */,
-				F70A43C129692FF300AC613C /* moveBy.swift */,
-				F70A43C429692FF300AC613C /* rotate.swift */,
-				F70A43C729692FF300AC613C /* shake.swift */,
-				F70A43C229692FF300AC613C /* UIView+IBInspectable.swift */,
-				F70A43CF2969302D00AC613C /* something.swift */,
+				F707E80029693D0E004BBEF0 /* SunsetFramework */,
 			);
 			path = SunsetFramework;
 			sourceTree = "<group>";
@@ -201,14 +209,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F70A43D02969302D00AC613C /* something.swift in Sources */,
-				F70A43CE29692FF300AC613C /* shake.swift in Sources */,
-				F70A43CA29692FF300AC613C /* flip.swift in Sources */,
-				F70A43C929692FF300AC613C /* UIView+IBInspectable.swift in Sources */,
-				F70A43CB29692FF300AC613C /* rotate.swift in Sources */,
-				F70A43CD29692FF300AC613C /* addShadow.swift in Sources */,
-				F70A43CC29692FF300AC613C /* fade.swift in Sources */,
-				F70A43C829692FF300AC613C /* moveBy.swift in Sources */,
+				F707E80D29693D0E004BBEF0 /* addShadow.swift in Sources */,
+				F707E80C29693D0E004BBEF0 /* flip.swift in Sources */,
+				F707E80F29693D0E004BBEF0 /* fade.swift in Sources */,
+				F707E80E29693D0E004BBEF0 /* rotate.swift in Sources */,
+				F707E80A29693D0E004BBEF0 /* shake.swift in Sources */,
+				F707E80B29693D0E004BBEF0 /* moveBy.swift in Sources */,
+				F707E81029693D0E004BBEF0 /* UIView+IBInspectable.swift in Sources */,
+				F707E80929693D0E004BBEF0 /* something.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
