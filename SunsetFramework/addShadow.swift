@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 public extension UIView {
-    func addShadow(ofColor color: UIColor? = UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 1.0), radius: CGFloat = .mediumSpacing, offset: CGSize = .zero, opacity: Float = 0.4) {
+    func addShadow(ofColor color: UIColor? = UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 1.0), radius: CGFloat = 8, offset: CGSize = .zero, opacity: Float = 0.4) {
         if let color = color?.cgColor {
             layer.shadowColor = color
         }
