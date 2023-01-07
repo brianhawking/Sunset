@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "SunsetFramework"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "Comprehensive UI framework for Sunset projects"
   spec.description  = "Framework for commonly used UI components such as padding, colors, alerts, UIView extensions."
 
