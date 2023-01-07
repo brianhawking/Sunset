@@ -30,7 +30,7 @@ class UIViewAnimationsViewController: UIViewController {
     
     func setupView() {
         box.fadeOut(duration: 0, completion: nil)
-        box.addShadow(ofColor: UIColor(hex1: "#000000"), radius: 20, offset: .zero, opacity: 0.5)
+//        box.addShadow(ofColor: UIColor(hex1: "#000000"), radius: 20, offset: .zero, opacity: 0.5)
         box.fadeIn(duration: 0.5)
     }
     
